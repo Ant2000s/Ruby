@@ -8,7 +8,7 @@ elem = Input.new
 math = Converter.new
 cnt = 1
 reg_str = '^[c,f,k]'
-reg_digit = '^[-]?[0-9]+([.]?[0-9]+)?$'
+reg_digit = '^[-]?[0-9]+([.][0-9]+)?$'
 while cnt == 1
   puts 'Enter temperature:'
   elem.temperature = gets.chomp
